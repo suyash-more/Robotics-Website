@@ -388,7 +388,7 @@ h1, h2, h3, h4, h5, h6 {
   font-weight: 800;
   line-height: 1.2;
   margin: 0 0 20px;
-  color: #1b1d21;
+  color: #173c63;
 }
 
 h1 {
@@ -1007,7 +1007,7 @@ a:hover, a:active {
   font-weight: 600;
 }
 .header-topbar a {
-  color: #b5b5b5;
+  color: #ffffff;
   transition: all 0.3s linear;
   -webkit-transition: all 0.3s linear;
   -moz-transition: all 0.3s linear;
@@ -1132,10 +1132,10 @@ a:hover, a:active {
 .style-2 .social-list li a {
   display: block;
   padding: 0 14px;
-  border-left: 1px solid rgba(255, 255, 255, 0.2);
+
 }
 .style-2 .social-list li:last-child a {
-  border-right: 1px solid rgba(255, 255, 255, 0.2);
+
 }
 .style-2 .topbar-info {
   float: right;
@@ -1417,7 +1417,7 @@ a:hover, a:active {
   text-decoration: none;
   text-align: center;
   outline: none;
-  color: #1a1b1e;
+  color: #173c63;
   white-space: nowrap;
   -webkit-transition: all 0.2s ease-out 0s;
   -moz-transition: all 0.2s ease-out 0s;
