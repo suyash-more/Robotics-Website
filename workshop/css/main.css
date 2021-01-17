@@ -1,0 +1,77 @@
+details {
+    width: 75%;
+    height: 100px;
+    min-height: 5px;
+    min-width: 350px;
+    max-height: 310px;
+    padding: 20px 20px 20px 20px;
+    margin: 0 auto;
+    position: relative;
+    font-size: 18px;
+    border: 1px solid #505050;
+    border-radius: 15px;
+    box-sizing: border-box;
+    transition: all 0.5s;
+}
+  
+details + details {
+    margin-top: 20px;
+}
+details p
+{
+    margin-top: 15px;
+}
+details[open] {
+    height: 200px;
+    background-color: #505050;
+    box-shadow: 2px 2px 20px rgba(0,0,0,.2);
+    color: rgb(7, 252, 252);
+}
+  
+details p {
+    color: whitesmoke;
+    font-weight: 300;
+}
+  
+summary {
+    justify-content: space-between;
+    align-items: center;
+    font-weight: 500;
+    cursor: pointer;
+}
+  
+summary:focus {
+    outline: none;
+}
+  
+summary::-webkit-details-marker {
+    display: none
+}
+  
+
+  
+details[open] summary:hover::after {
+    animation: pulse 1s ease;
+}
+  
+@keyframes pulse {
+    25% {
+      transform: scale(1.1);
+    }
+    50% {
+      transform: scale(1);
+    }
+    75% {
+      transform: scale(1.1);
+    }
+    100% {
+      transform: scale(1);
+    }
+}
+
+.topic{
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
