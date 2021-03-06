@@ -3,7 +3,7 @@
 
 <head>
 
-    <title>Arduino Botix Workshop 2021</title>
+    <title>Robotics Bootcamp 2021</title>
 
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=Edge">
@@ -25,64 +25,68 @@
 Tooplate 2119 Gymso Fitness
 https://www.tooplate.com/view/2119-gymso-fitness
 -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"
-        integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g=="
-        crossorigin="anonymous" />
-    <link rel="stylesheet"
-        href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css"
-        integrity="sha512-sMXtMNL1zRzolHYKEujM2AqCLUR9F2C4/05cdbxjjLSRvMQIciEPCQZo++nk7go3BtSuK9kfa/s+a4f4i5pLkw=="
-        crossorigin="anonymous" />
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"
+integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g=="
+crossorigin="anonymous" />
+<link rel="stylesheet"
+href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css"
+integrity="sha512-sMXtMNL1zRzolHYKEujM2AqCLUR9F2C4/05cdbxjjLSRvMQIciEPCQZo++nk7go3BtSuK9kfa/s+a4f4i5pLkw=="
+crossorigin="anonymous" />
 
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
 </head>
 
 
 <style>
     .start article {
-    padding: 10px;
-    margin: 10px;
-    flex: 200px;
-    height: auto;
-    text-align: center;
-}
+        padding: 10px;
+        margin: 10px;
+        flex: 200px;
+        height: auto;
+        text-align: center;
+    }
 
 
 
-.start article h2{
-    font-family: Bahnschrift;
-}
+    .start article h2{
+        font-family: Bahnschrift;
+    }
 
-.start {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    margin-top: 20px;
-    padding: 30px;
-}
+    .start {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        margin-top: 20px;
+        padding: 30px;
+    }
 
-.accordion {
-  background-color: #eee;
-  color: #444;
-  cursor: pointer;
-  padding: 18px;
-  width: 100%;
-  border: none;
-  text-align: left;
-  outline: none;
-  font-size: 15px;
-  transition: 0.4s;
-}
+    .accordion {
+      background-color: #eee;
+      color: #444;
+      cursor: pointer;
+      padding: 18px;
+      width: 100%;
+      border: none;
+      text-align: left;
+      outline: none;
+      font-size: 15px;
+      transition: 0.4s;
+  }
 
-.active, .accordion:hover {
-  background-color: rgba(204, 204, 204, 0); 
-}
+  .active, .accordion:hover {
+      background-color: rgba(204, 204, 204, 0); 
+  }
 
-.panel {
-  padding: 0 18px;
-  display: none;
-  background-color: white;
-  overflow: hidden;
-}
+  .panel {
+      padding: 0 18px;
+      display: none;
+      background-color: white;
+      overflow: hidden;
+  }
+
+  .border{
+    border-radius:10px;
+  }
 
 </style>
 <body data-spy="scroll" data-target="#navbarNav" data-offset="50">
@@ -91,50 +95,50 @@ https://www.tooplate.com/view/2119-gymso-fitness
     <nav class="navbar navbar-expand-lg fixed-top">
         <!-- <div class="container"> -->
 
-            <a class="navbar-brand" href="#">Arduino Botix Workshop</a>
+            <a class="navbar-brand" href="#">Robotics Bootcamp 2021</a>
 
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
-                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
+            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
 
-            <div class="collapse navbar-collapse" id="navbarNav">
-                <ul class="navbar-nav ml-lg-auto">
-                    <li class="nav-item">
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ml-lg-auto">
+                <li class="nav-item">
                     <a href="#home" class="nav-link smoothScroll">Home</a>
                 </li>
 
-                    <li class="nav-item">
-                        <a href="#about" class="nav-link smoothScroll">About Us</a>
-                    </li>
+                <li class="nav-item">
+                    <a href="#about" class="nav-link smoothScroll">About Us</a>
+                </li>
 
-                    <li class="nav-item">
-                        <a href="#wwl" class="nav-link smoothScroll">What will you learn?</a>
-                    </li>
+                <li class="nav-item">
+                    <a href="#wwl" class="nav-link smoothScroll">What will you learn?</a>
+                </li>
 
-                    <li class="nav-item">
-                        <a href="#schedule" class="nav-link smoothScroll">Workshop 2019</a>
-                    </li>
+                <li class="nav-item">
+                    <a href="#schedule" class="nav-link smoothScroll">Bootcamp 2019</a>
+                </li>
 
-                    <li class="nav-item">
-                        <a href="#take" class="nav-link smoothScroll">TAKE AWAY</a>
-                    </li>
+                <li class="nav-item">
+                    <a href="#take" class="nav-link smoothScroll">TAKE AWAY</a>
+                </li>
 
-                    <li class="nav-item">
-                        <a href="#faq" class="nav-link smoothScroll">FAQs</a>
-                    </li>
+                <li class="nav-item">
+                    <a href="#faq" class="nav-link smoothScroll">FAQs</a>
+                </li>
 
-                    <li class="nav-item">
-                        <a href="#contact" class="nav-link smoothScroll">Contact</a>
-                    </li>
-                </ul>
+                <li class="nav-item">
+                    <a href="#contact" class="nav-link smoothScroll">Contact</a>
+                </li>
+            </ul>
 
                 <!-- <ul class="social-icon ml-lg-3">
                 <li><a href="https://fb.com/tooplate" class="fa fa-facebook"></a></li>
                 <li><a href="#" class="fa fa-twitter"></a></li>
                 <li><a href="#" class="fa fa-instagram"></a></li>
             </ul> -->
-            </div>
+        </div>
 
         <!-- </div> -->
     </nav>
@@ -152,91 +156,93 @@ https://www.tooplate.com/view/2119-gymso-fitness
 
                         <h6>We, at PICT ROBOTICS welcome you to the,</h6>
 
-                        <h1 class="text-white">Arduino Botix Workshop</h1>
-                        <h6>We conduct Arduino Botix Workshop Every year for everyone eager to learn arduino and robotics from basics to intermediate level. And the only platform to interact PICT Robotics alumni 
-                            who are currently entrepreneurs and industry experts</h6>
+                        <h1 class="text-white">Robotics Bootcamp 2021</h1>
+                        <h6>We conduct a robotics workshop every year for everyone who's eager to learn arduino and robotics from basics to intermediate level. Also, this workshop is the only platform to interact PICT Robotics alumni who are entrepreneurs and industry experts.</h6>
 
                         <!-- <a href="#feature" class="btn custom-btn mt-3" data-aos="fade-up" data-aos-delay="600">Get started</a>
 
             <a href="#about" class="btn custom-btn bordered mt-3" data-aos="fade-up" data-aos-delay="700">learn more</a>
- -->
-                    </div>
-                </div>
+        -->
+    </div>
+</div>
 
-            </div>
-        </div>
-    </section>
+</div>
+</div>
+</section>
 
 
-    <section class="feature" id="feature">
-        <div class="container">
-            <div class="row">
+<section class="feature" id="feature">
+    <div class="container">
+        <div class="row">
 
-                <div class="d-flex flex-column justify-content-center ml-lg-auto mr-lg-5 col-lg-5 col-md-6 col-12">
-                    <h2 class="mb-5 text-white">New to the workshop ?</h2>
+            <div class="d-flex flex-column justify-content-center ml-lg-auto mr-lg-5 col-lg-5 col-md-6 col-12">
+                <h2 class="mb-5 text-white">New to the workshop ?</h2>
 
-                    <h6 class="mb-4 text-white">Don't worry, this workshop is specially designed for
-                        freshers, NO PREREQUISITES!</h6>
+                <h6 class="mb-4 text-white">Don't worry, this workshop is specially designed for
+                freshers, NO PREREQUISITES!</h6>
 
-                    <!-- <p data-aos="fade-up" data-aos-delay="200">Gymso is free HTML template by <a rel="nofollow" href="https://www.tooplate.com" target="_parent">Tooplate</a> for your commercial website. Bootstrap v4.2.1 Layout. Feel free to use it.</p> -->
+                <!-- <p data-aos="fade-up" data-aos-delay="200">Gymso is free HTML template by <a rel="nofollow" href="https://www.tooplate.com" target="_parent">Tooplate</a> for your commercial website. Bootstrap v4.2.1 Layout. Feel free to use it.</p> -->
 
-                    <h4 class="mb-4 text-white">For whom ?</h4>
+                <h4 class="mb-4 text-white">For whom ?</h4>
 
-                    <p>Specially designed for freshers, the Arduino Botix
-                        Workshop is organized by PICT Robotics every year to introduce freshers to the field of
-                        robotics. Every year, students from every department join the workshop to get to know more about
-                        arduino coding, sensor interfacing, etc. Students from every domain should join the worshop for
-                        c.s and it branch you get to know about microcontroller coding while for entc branch you will
-                        get to know about embedded systems , sensor interfacing .Every student who wish to join pict
-                        robotics should attend this worshop </p>
+                <p>Specially designed for freshers, the Robotics Bootcamp is organized by PICT Robotics every year to introduce freshers to the field of robotics. Every year, students from every department join the workshop to get to know more about robotics, arduino coding, sensor interfacing, etc. Also, the knowledge gained in the workshop will give you an edge in the 2021 PICT Robotics Interviews</p>
 
-                    <a href="#" class="btn custom-btn bg-color mt-3"
-                        data-toggle="modal" data-target="#membershipForm">Registrations Starting Soon</a>
-                </div>
-
-                <div class="mr-lg-auto mt-3 col-lg-4 col-md-6 col-12">
-                    <div class="about-working-hours">
-                        <div>
-
-                            <h2 class="mb-4 text-white">Date and Venue</h2>
-
-                            <strong class="d-block">Yet to be Announced</strong>
-
-                            <!-- <strong class="mt-3 d-block" data-aos="fade-up" data-aos-delay="700">Monday - Friday</strong>
-
-                <p data-aos="fade-up" data-aos-delay="800">7:00 AM - 10:00 PM</p>
-
-                <strong class="mt-3 d-block" data-aos="fade-up" data-aos-delay="700">Saturday</strong>
-
-                <p data-aos="fade-up" data-aos-delay="800">6:00 AM - 4:00 PM</p> -->
-                        </div>
-                    </div>
-                </div>
+                <a href="#" class="btn custom-btn bg-color mt-3"
+                data-toggle="modal" data-target="#membershipForm">Register Now</a>
             </div>
 
+            <div class="mr-lg-auto mt-3 col-lg-6 col-md-6 col-12">
+                <div class="about-working-hours">
+                    <div>
+
+                        <h2 class="mb-4 text-white">Date and Venue</h2>
+
+                        <!-- <strong class="d-block">Schedu</strong> -->
+
+                        <strong class="mt-3 d-block">Day 1: Theory of Robotics</strong>
+                        <p class="m-0">13th March 2021</p>
+                        <p>4:00 PM - 7:00 PM</p>
+
+                        <strong class="mt-3 d-block">Day 2: Arduino Coding</strong>
+                        <p class="m-0">14th March 2021</p>
+                        <p class="m-0">4:00 PM - 7:00 PM</p>
+
+                        <strong class="mt-3 d-block">Day 3: Project Simulation using Tinkercad</strong>
+                        <p class="m-0">20th March 2021</p>
+                        <p class="m-0">4:00 PM - 7:00 PM</p>
+
+                        <strong class="mt-3 d-block">Day 4: Theory of Robotics</strong>
+                        <p class="m-0">21sh March 2021</p>
+                        <p class="m-0">4:00 PM - 7:00 PM</p>
+
+                    </div>
+                </div>
+            </div>
         </div>
-        </div>
-    </section>
+
+    </div>
+</div>
+</section>
 
 
-    <!-- ABOUT -->
-    <section class="about section" id="about">
-        <div class="container">
-            <div class="row">
+<!-- ABOUT -->
+<section class="about section" id="about">
+    <div class="container">
+        <div class="row">
 
-                <div class="mt-lg-5 mb-lg-0 mb-4 mx-auto col-12">
-                    <h2 class="mb-5">PICT Robotics</h2>
+            <div class="mt-lg-5 mb-lg-0 mb-4 mx-auto col-12">
+                <h2 class="mb-5">PICT Robotics</h2>
 
-                    <p>PICT Robotics team takes part in the annual Asia-Pacific Robot Contest (ABU Robocon), founded in 2002 by Asia-Pacific Broadcasting Union. PICT Robotics aims to enhance the technical skills of the team members as well as gives them exposure to competitions at an international level.  Moreover, 
-                        the team members gain industrial experience in the fields of mechatronics and hardcore coding.</p>
+                <p>PICT Robotics team takes part in the annual Asia-Pacific Robot Contest (ABU Robocon), founded in 2002 by Asia-Pacific Broadcasting Union. PICT Robotics aims to enhance the technical skills of the team members as well as gives them exposure to competitions at an international level.  Moreover, 
+                the team members gain industrial experience in the fields of mechatronics and hardcore coding.</p>
 
-                    <!-- <p data-aos="fade-up" data-aos-delay="400">Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem vel dolorem enim dolorum sed odit reprehenderit cumque modi deserunt facilis rerum ex officiis tenetur, ea non, amet velit doloribus consequuntur.</p> -->
+                <!-- <p data-aos="fade-up" data-aos-delay="400">Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem vel dolorem enim dolorum sed odit reprehenderit cumque modi deserunt facilis rerum ex officiis tenetur, ea non, amet velit doloribus consequuntur.</p> -->
 
-                    <p>To know more about us, kindly visit our <a rel="nofollow"
-                            href="https://pictrobotics.com" target="_parent">official website</a><br>
-                            Follow our instagram account for notices regarding our upcoming events and interview 
-                             <a rel="nofollow" href="https://www.tooplate.com/contact"
-                            target="_parent">Instagram</a></p>
+                <p>To know more about us, kindly visit our <a rel="nofollow"
+                    href="https://pictrobotics.com" target="_parent">official website</a><br>
+                    Follow our instagram account for notices regarding our upcoming events and interview 
+                    <a rel="nofollow" href="https://www.tooplate.com/contact"
+                    target="_parent">Instagram</a></p>
 
                 </div>
 
@@ -273,70 +279,58 @@ https://www.tooplate.com/view/2119-gymso-fitness
                 </div>
             </div>
         </div>
- -->
-            </div>
-            <div class="row">
+    -->
+</div>
+<div class="row">
 
-                <div class="mt-lg-5 mb-lg-0 mb-4 mx-auto col-12">
-                    <h2 class="mb-5">What's there for you in the Workshop</h2>
+    <div class="mt-lg-5 mb-lg-0 mb-4 mx-auto col-12">
+        <h2 class="mb-5">What's there for you in the Workshop</h2>
+        <p>Whether you're someone who has no knowledge about the field of robotics and microcontrollers or whether you have previous knowledge and wish to learn more, you will surely have something to take from the workshop.</p>
+        <p>We will be taking you right from the basic components of a robot to being able to simulate your own Gesture Controlled Bot, Line Tracing Bot and Wall Tracing Bot.
+        </p>
+        <p>We believe that more than just running code, it's crucial to know what you're doing and so we will be sharing our knowledge about each and every line of code you write.</p>
+        <p>Apart from coding, if you have never heard about embedded systems or even never used a breadboard, don't worry, we'll help you out in all the electronics knowledge needed to build Arduino projects.</p>
+        <p>This workshop will not only enable you in building the above mentioned Arduino projects, but also the hands-on experience of building your Arduino projects in the workshop make you capable of innovating by yourself in this ever growing field of robotics.</p>
 
-                    <p>Whether you're someone who has no knowledge about the
-                        field of robotics and microcontrollers or whether you have previous knowledge and wish to learn
-                        more, you will surely have something to take from the workshop.</p>
-                    <p>We will be taking you right from the basics of C
-                        programming to building your own Gesture Controlled Bot, Line Tracing Bot and Wall Tracing Bot.
-                    </p>
-                    <p>We believe that more than just running code, it's crucial
-                        to know what you're doing and so we will be sharing our knowledge about each and every line of
-                        code you write.</p>
-                    <p>Apart from coding, if you have never heard about embedded
-                        systems or even never used a breadboard, don't worry, we'll help you out in all the electronics
-                        knowledge needed to build Arduino projects.</p>
-                    <p>This workshop will not only enable you in building the
-                        above mentioned Arduino projects, but also the hands-on experience of building your Arduino
-                        projects in the workshop make you capable of innovating by yourself in this ever growing field
-                        of robotics.</p>
+        <!-- <p data-aos="fade-up" data-aos-delay="400">Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem vel dolorem enim dolorum sed odit reprehenderit cumque modi deserunt facilis rerum ex officiis tenetur, ea non, amet velit doloribus consequuntur.</p> -->
 
-                    <!-- <p data-aos="fade-up" data-aos-delay="400">Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem vel dolorem enim dolorum sed odit reprehenderit cumque modi deserunt facilis rerum ex officiis tenetur, ea non, amet velit doloribus consequuntur.</p> -->
+        <!-- <p data-aos="fade-up" data-aos-delay="500">To know more about us, kindly visit our <a rel="nofollow" href="https://pictrobotics.com" target="_parent">official website</a>, you can also follow us on our <a rel="nofollow" href="https://www.tooplate.com/contact" target="_parent">Instagram</a></p> -->
 
-                    <!-- <p data-aos="fade-up" data-aos-delay="500">To know more about us, kindly visit our <a rel="nofollow" href="https://pictrobotics.com" target="_parent">official website</a>, you can also follow us on our <a rel="nofollow" href="https://www.tooplate.com/contact" target="_parent">Instagram</a></p> -->
-
-                </div>
-            </div>
-        </div>
-    </section>
-
-
-    <div id="wwl" style="text-align: center; margin-top: 50px; font-family: Bahnschrift;">
-        <h2>What will you learn?</h2>
-        <br>
-        <p>We at PICT ROBOTICS will take you from complete Beginner to a intermediate learner in robotics.<br> We have 3 years of experience in field of robotics. We have been participating in national competition since 12 years </p>
     </div>
-    <div class="start container">
-        <article>
-            <a href="info.html#theory">
-                <div><i class='fas fa-robot' style='font-size:50px; color:#55c0f2'></i></div>
-                <br>
-                <b>Introduction to the World of Robotics</b>
-            </a>
-        </article>
-        <article>
-            <a href="info.html#arduino">
-                <div><i class='fas fa-microchip' style='font-size:50px; color:#55c0f2'></i></div>
-                <br>
-                <!--<b>Bluetooth Control and Interfacing</b>-->
-                <b>Arduino Coding</b>
-            </a>
-        </article>
-        <article>
-            <a href="info.html#tinkercad">
-                <div><i class='fas fa-camera-retro' style='font-size:50px; color:#55c0f2'></i></div>
-                <br>
-                <!--<b>Microcontroller Coding</b>-->
-                <b>TinkerCAD Simulation</b>
-            </a>
-        </article>
-    </div>
+</div>
+</div>
+</section>
+
+
+<div class="container" id="wwl" style="text-align: center; margin-top: 50px;">
+    <h2>What will you learn?</h2>
+    <br>
+    <p>We will take you from being a complete beginner to an intermediate learner in robotics. After participating in the  bootcamp, you will be able to build your own Arduino projects as well as simulate your projects on platforms like Tinkercad.</p>
+    <p>We have been representing PICT in national-level robotics competitions like ROBOCON for the past 12 years.</p>
+</div>
+<div class="start container" style="text-align: justify;">
+    <article class="border">
+        <a href="info.html#theory">
+            <div><i class='fas fa-robot' style='font-size:50px; color:#55c0f2'></i></div>
+            <p class="mt-3"><b>Theory of Robotics</b></p>
+            <p class="mt-2">This session will give you your first introduction to the field of Robotics. We will take you right from understanding about basic components in a robot like gears, bearings, etc. to more advanced concepts like drivetrains, interrupts, communication protocols and much more.</p>
+        </a>
+    </article>
+    <article class="border">
+        <a href="info.html#arduino">
+            <div><i class='fas fa-microchip' style='font-size:50px; color:#55c0f2'></i></div>
+            <p class="mt-3"><b>Arduino Coding</b></p>
+            <p class="mt-2">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quibusdam quia reprehenderit repudiandae doloribus nobis! Aliquam velit totam, voluptas facilis laudantium animi assumenda delectus hic nulla consectetur aliquid, debitis impedit itaque!</p>
+        </a>
+    </article>
+    <article class="border">
+        <a href="info.html#tinkercad">
+            <div><i class='fas fa-camera-retro' style='font-size:50px; color:#55c0f2'></i></div>
+            <p class="mt-3"><b>TinkerCAD Simulation</b></p>
+            <p class="mt-2">Tinkercad is a free online collection of software tools that help people all over the world think, create and make. Build your own arduino project on tinkercad simulator from scratch which will be guided seniors and industry persons sourced by PICT robotics.</p>
+        </a>
+    </article>
+</div>
     <!--
     <div class="start container">
         <article>
@@ -363,8 +357,7 @@ https://www.tooplate.com/view/2119-gymso-fitness
 
                 <div class="col-lg-12 col-12 text-center">
                     <!-- <h6 data-aos="fade-up">our weekly GYM schedules</h6> -->
-                    <h2 class="text-white py-4">Arduino
-                        Botix Workshop 2019
+                    <h2 class="text-white py-4">Robotics Bootcamp 2019
                     </h2>
                 </div>
                 <div class="container sliderimg">
@@ -397,86 +390,143 @@ https://www.tooplate.com/view/2119-gymso-fitness
             </div>
         </div>
     </section>
-<br>
-<br>
-<div id="take" class="container">
-    <h2>Key Takeaways</h2>
-<div class="row">
-    <div class="card" style="width: 30rem;">
-        <div class="card-body">
-              <h6>Certificates</h6>
-              <br>
-              <h6>TinkerCAD Simulation</h6> 
-              <br>
-              <h6>Knowledge useful for PICT Robotics interview</h6>
-              <br>
-              <h6>Interaction with our Notable Alumni's</h6>
-              <br>
-        </div>
-      </div>
-</div>
 
-<div id="faq" class="container">
-   
-    <h2>FAQs</h2>
-    <br>
-    <button class="accordion">What is the registration fee?</button>
-<div class="panel">
-  <p>The registration will be confirmed soon and we will let you know when the registration begins</p>
-</div>
-
-<button class="accordion">What if I don't have a any of experience in Robotics?</button>
-<div class="panel">
-  <p> Doesn't matter, this workshop is specially designed for FEs.</p>
-</div>
-
-<button class="accordion">Will I get a Robotic Kit </button>
-<div class="panel">
-  <p>No. This year due to the pandemic, we have tried a different approach, and decided to conduct the workshop in a different way.</p>
-</div>
-
-</div>
- 
-
-<br>
-           <div class="container">
-           <h2>Contact Us</h2>
-           <br>
-           <div class="media">
-            <img width="50px" height="50px" src="https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg" class="mr-3" alt="...">
-            <div class="media-body">
-              <h5 class="mt-0">Join our PICT ROBOTICS INTERACT GROUP </h5>
-              <b><a href="">CLICK HERE TO JOIN</a></b>
-            
-            </div>
+    <div id="take" class="container mt-5">
+        <h2>Key Takeaways</h2>
+        <div class="row">
+            <div class="card m-3">
+                <div class="card-body">
+                  <p>Certificates</p>
+                  <p>Getting Familiar to Robotics</p>
+                  <p>Learnng Arduino Coding</p>
+                  <p>Learning to simulate using Tinkercad</p>
+                  <p>Gaining useful knowledge for PICT Robotics interview</p>
+                  <p>Interaction with our Notable Alumni's</p>
+              </div>
           </div>
+      </div>
+  </div>
 
-    <section class="contact section" id="contact">
-        <div class="container">
-            <div class="row">
+  <!-- FAQs -->
+    <div class="container mt-5">
+        <h2 class="ml1 aos-init aos-animate">
+            <span class="text-wrapper">
+                <span class="letters">FAQs</span>
+                <span class="line line2"></span>
+            </span>
+        </h1>
+        <div class="row mt-3">
+            <div class="col-xl-4 mb-4 aos-init aos-animate">
+                <div class="d-flex justify-content-center">
+                    <details close="">
+                        <summary>
+                            What is the registration fee?
+                            <br>
+                        </summary>
+                        <p>A: The Registration fee for the bootcamp is ₹400.
+                        </p>
+                    </details>
+                </div>
+            </div>
+            <div class="col-xl-4 mb-4 aos-init aos-animate">
+                <div class="d-flex justify-content-center">
+                    <details close="">
+                        <summary>
+                            What if I don't have a any of experience in Robotics?
+                        </summary>
+                        <p>A: Doesn't matter, this workshop is specially designed for FEs.
+                        </p>
+                    </details>
+                </div>
+            </div>
+            <div class="col-xl-4 mb-4 aos-init aos-animate">
+                <div class="d-flex justify-content-center">
+                    <details close="">
+                        <summary>
+                            Will I get a Robotics Kit?
+                            <br>
+                        </summary>
+                        <p>A: No. This year, due to the pandemic, we have tried a different approach, and have decided to conduct the workshop in a different way.
+                        </p>
+                    </details>
+                </div>
+            </div>
+        </div>
+                        <!-- <div class="row">
 
-                <div class="ml-auto col-lg-12 col-md-12 col-12">
-                    <h2 class="ml1 aos-init aos-animate">
-                        <span class="text-wrapper">
-                            <span class="letters">Registration Form</span>
-                            <span class="line line2"></span>
-                        </span> <span class="text-wrapper">
-                            <span class="letters">Registration Form</span>
-                            <span class="line line2"></span>
-                        </span>
-                    </h2>
+            <div class="col-sm-4 aos-init" data-aos="zoom-in" data-aos-duration="1000">
+                <div class="d-flex justify-content-center">
+                    <details close="">
+                        <summary>
+                            veniam officia suscipit delectus corporis! Libero, voluptate amet. 
+                        </summary>
+                        <p>A: obcaecati laudantium nostrum debitis dignissimos eos doloribus.
+                        </p>
+                    </details>
+                </div>
+            </div>
+            <div class="col-sm-4 aos-init" data-aos="zoom-in" data-aos-duration="1000">
+                <div class="d-flex justify-content-center">
+                    <details close="">
+                        <summary>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                        </summary>
+                        <p>A: Sunt eos libero possimus corporis optio aliquam, quae maiores non dolorum corrupti. 
+                        </p>
+                    </details>
+                </div>
+            </div>
+            <div class="col-sm-4 aos-init" data-aos="zoom-in" data-aos-duration="1000">
+                <div class="d-flex justify-content-center">
+                    <details close="">
+                        <summary>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        </summary>
+                        <p>A: Fuga libero placeat maiores cumque doloribus explicabo. 
+                        </p>
+                    </details>
+                </div>
+            </div>
+        </div> -->
 
-                    <form action="#" method="post" class="contact-form webform" role="form">
+    </div>
+
+
+
+<div class="container mt-5">
+ <h2>Contact Us</h2>
+ <div class="media mt-3">
+    <img width="50px" height="50px" src="https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg" class="mr-3" alt="...">
+    <div class="media-body">
+      <h5 class="mt-0">Join our PICT ROBOTICS INTERACT GROUP </h5>
+      <b><a href="">CLICK HERE TO JOIN</a></b>
+  </div>
+  </div>
+</div>
+
+<section class="contact section" id="contact">
+    <div class="container">
+        <div class="row">
+
+            <div class="ml-auto col-lg-12 col-md-12 col-12">
+                <h2 class="ml1 aos-init aos-animate">
+                    <span class="text-wrapper">
+                        <span class="letters">Registration Form</span>
+                        <span class="line line2"></span>
+                    </span>
+                </h2>
+
+                <form action="#" method="post" class="contact-form webform" role="form">
                         <!-- <input type="text" class="form-control" name="cf-name" placeholder="Name">
 
             <input type="email" class="form-control" name="cf-email" placeholder="Email">
 
             <textarea class="form-control" rows="5" name="cf-message" placeholder="Message"></textarea>
- -->
-                        <button type="submit" class="form-control" id="submit-button" name="submit">Link to Registration
-                            Form</button>
-                    </form>
-                </div>
+        -->
+        <button type="submit" class="form-control" id="submit-button" name="submit">Link to Registration
+        Form</button>
+    </form>
+</div>
 
                 <!-- <div class="mx-auto mt-4 mt-lg-0 mt-md-0 col-lg-5 col-md-6 col-12">
         <h2 class="mb-4" data-aos="fade-up" data-aos-delay="600">Where you can <span>find us</span></h2>
@@ -491,116 +541,116 @@ https://www.tooplate.com/view/2119-gymso-fitness
                 <!-- <div class="google-map" data-aos="fade-up" data-aos-delay="900">
    <iframe src="https://maps.google.com/maps?q=Av.+Lúcio+Costa,+Rio+de+Janeiro+-+RJ,+Brazil&t=&z=13&ie=UTF8&iwloc=&output=embed" width="1920" height="250" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
 </div> -->
+</div>
+
+</div>
+</div>
+</section>
+
+
+<!-- FOOTER -->
+<footer class="site-footer">
+    <div class="container">
+        <div class="row">
+
+            <div class="ml-auto col-lg-4 col-md-5">
+                <p class="copyright-text">Copyright &copy; 2020 PICT ROBOTICS.
+
+                    <br>Visit Us: <a href="https://pictrobotics.com/"><strong>Pict Robotics</strong> </a>
+                </p>
             </div>
 
-        </div>
-        </div>
-    </section>
+            <div class="d-flex justify-content-center mx-auto col-lg-5 col-md-7 col-12">
+                <p class="mr-12">
+                    <a href="https://www.instagram.com/pictrobotics/"><i class="fa fa-instagram fa-2 socialicon"></i></a>
+                    <!-- <i class="fa fa-twitter socialicon"><a href=""></a></i> -->
+                    <a href="https://www.linkedin.com/company/pictrobotics/"><i class="fa fa-linkedin socialicon"></i></a>
+                    <a href="https://www.facebook.com/pictrobotics/"><i class="fa fa-facebook socialicon"></i></a>
+                    <!-- <a href="#">hello@company.co</a> -->
+                </p>
 
-
-    <!-- FOOTER -->
-    <footer class="site-footer">
-        <div class="container">
-            <div class="row">
-
-                <div class="ml-auto col-lg-4 col-md-5">
-                    <p class="copyright-text">Copyright &copy; 2020 PICT ROBOTICS.
-
-                        <br>Visit Us: <a href="https://pictrobotics.com/"><strong>Pict Robotics</strong> </a>
-                    </p>
-                </div>
-
-                <div class="d-flex justify-content-center mx-auto col-lg-5 col-md-7 col-12">
-                    <p class="mr-12">
-                        <a href="https://www.instagram.com/pictrobotics/"><i class="fa fa-instagram fa-2 socialicon"></i></a>
-                        <!-- <i class="fa fa-twitter socialicon"><a href=""></a></i> -->
-                        <a href="https://www.linkedin.com/company/pictrobotics/"><i class="fa fa-linkedin socialicon"></i></a>
-                        <a href="https://www.facebook.com/pictrobotics/"><i class="fa fa-facebook socialicon"></i></a>
-                        <!-- <a href="#">hello@company.co</a> -->
-                    </p>
-
-                    <!-- <p><i class="fa fa-phone mr-1"></i> 010-020-0840</p> -->
-                </div>
-
+                <!-- <p><i class="fa fa-phone mr-1"></i> 010-020-0840</p> -->
             </div>
-        </div>
-    </footer>
 
-    <!-- Modal -->
-    <div class="modal fade" id="membershipForm" tabindex="-1" role="dialog" aria-labelledby="membershipFormLabel"
-        aria-hidden="true">
-        <div class="modal-dialog" role="document">
-
-            <div class="modal-content">
-                <div class="modal-header">
-
-                    <h2 class="modal-title" id="membershipFormLabel">Membership Form</h2>
-
-                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                        <span aria-hidden="true">&times;</span>
-                    </button>
-                </div>
-
-                <div class="modal-body">
-                    <form class="membership-form webform" role="form">
-                        <input type="text" class="form-control" name="cf-name" placeholder="John Doe">
-
-                        <input type="email" class="form-control" name="cf-email" placeholder="Johndoe@gmail.com">
-
-                        <input type="tel" class="form-control" name="cf-phone" placeholder="123-456-7890"
-                            pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" required>
-
-                        <textarea class="form-control" rows="3" name="cf-message"
-                            placeholder="Additional Message"></textarea>
-
-                        <button type="submit" class="form-control" id="submit-button" name="submit">Submit
-                            Button</button>
-
-                        <div class="custom-control custom-checkbox">
-                            <input type="checkbox" class="custom-control-input" id="signup-agree">
-                            <label class="custom-control-label text-small text-muted" for="signup-agree">I agree to the
-                                <a href="#">Terms &amp;Conditions</a>
-                            </label>
-                        </div>
-                    </form>
-                </div>
-
-                <div class="modal-footer"></div>
-
-            </div>
         </div>
     </div>
+</footer>
 
-    <!-- SCRIPTS -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"
-        integrity="sha512-bLT0Qm9VnAYZDflyKcBaQ2gg0hSYNQrJ8RilYldYQ1FxQYoCLtUjuuRuZo+fjqhx/qtq/1itJ0C2ejDxltZVFg=="
-        crossorigin="anonymous"></script>
-    <script src="js/jquery.min.js"></script>
-    <script src="js/bootstrap.min.js"></script>
-    <script src="js/aos.js"></script>
-    <script src="js/smoothscroll.js"></script>
-    <script src="js/custom.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"
-        integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw=="
-        crossorigin="anonymous"></script>
-    <script>
-        $('.owl-carousel').owlCarousel({
-            loop: true,
-            margin: 50,
-            nav: true,
-            responsive: {
-                0: {
-                    items: 1
-                },
-                600: {
-                    items: 2
-                },
-                1000: {
-                    items: 3
-                }
+<!-- Modal -->
+<div class="modal fade" id="membershipForm" tabindex="-1" role="dialog" aria-labelledby="membershipFormLabel"
+aria-hidden="true">
+<div class="modal-dialog" role="document">
+
+    <div class="modal-content">
+        <div class="modal-header">
+
+            <h2 class="modal-title" id="membershipFormLabel">Membership Form</h2>
+
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+            </button>
+        </div>
+
+        <div class="modal-body">
+            <form class="membership-form webform" role="form">
+                <input type="text" class="form-control" name="cf-name" placeholder="John Doe">
+
+                <input type="email" class="form-control" name="cf-email" placeholder="Johndoe@gmail.com">
+
+                <input type="tel" class="form-control" name="cf-phone" placeholder="123-456-7890"
+                pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" required>
+
+                <textarea class="form-control" rows="3" name="cf-message"
+                placeholder="Additional Message"></textarea>
+
+                <button type="submit" class="form-control" id="submit-button" name="submit">Submit
+                Button</button>
+
+                <div class="custom-control custom-checkbox">
+                    <input type="checkbox" class="custom-control-input" id="signup-agree">
+                    <label class="custom-control-label text-small text-muted" for="signup-agree">I agree to the
+                        <a href="#">Terms &amp;Conditions</a>
+                    </label>
+                </div>
+            </form>
+        </div>
+
+        <div class="modal-footer"></div>
+
+    </div>
+</div>
+</div>
+
+<!-- SCRIPTS -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"
+integrity="sha512-bLT0Qm9VnAYZDflyKcBaQ2gg0hSYNQrJ8RilYldYQ1FxQYoCLtUjuuRuZo+fjqhx/qtq/1itJ0C2ejDxltZVFg=="
+crossorigin="anonymous"></script>
+<script src="js/jquery.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/aos.js"></script>
+<script src="js/smoothscroll.js"></script>
+<script src="js/custom.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"
+integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw=="
+crossorigin="anonymous"></script>
+<script>
+    $('.owl-carousel').owlCarousel({
+        loop: true,
+        margin: 50,
+        nav: true,
+        responsive: {
+            0: {
+                items: 1
+            },
+            600: {
+                items: 2
+            },
+            1000: {
+                items: 3
             }
-        })
-    </script>
+        }
+    })
+</script>
 <script>
     var acc = document.getElementsByClassName("accordion");
     var i;
@@ -611,12 +661,12 @@ https://www.tooplate.com/view/2119-gymso-fitness
         var panel = this.nextElementSibling;
         if (panel.style.display === "block") {
           panel.style.display = "none";
-        } else {
+      } else {
           panel.style.display = "block";
-        }
-      });
-    }
-    </script>
+      }
+  });
+  }
+</script>
 </body>
 
 </html>
@@ -631,7 +681,7 @@ https://www.tooplate.com/view/2119-gymso-fitness
     // Takeaways (Certificates, Alumini Interaction)
     // FAQs
     //* Timeline (Dates) -->
-<!-- Coming Soon  (if college starts -->
+    <!-- Coming Soon  (if college starts -->
 <!-- offline, else online)
     //*** Know about PICT Robotics (Redirect to main website)
 
