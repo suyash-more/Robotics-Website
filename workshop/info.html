@@ -1,0 +1,351 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <title>Arduino Botix Workshop 2021</title>
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+    <meta name="description" content="">
+    <meta name="keywords" content="">
+    <meta name="author" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <script src='https://kit.fontawesome.com/a076d05399.js'></script>
+    
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/aos.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <!-- MAIN CSS -->
+    <link rel="stylesheet" href="css/tooplate-gymso-style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <!--
+Tooplate 2119 Gymso Fitness
+https://www.tooplate.com/view/2119-gymso-fitness
+-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"
+        integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g=="
+        crossorigin="anonymous" />
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css"
+        integrity="sha512-sMXtMNL1zRzolHYKEujM2AqCLUR9F2C4/05cdbxjjLSRvMQIciEPCQZo++nk7go3BtSuK9kfa/s+a4f4i5pLkw=="
+        crossorigin="anonymous" />
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+</head>
+
+
+<style>
+    .start article {
+    padding: 10px;
+    margin: 10px;
+    flex: 200px;
+    height: auto;
+    text-align: center;
+}
+
+
+
+.start article h2{
+    font-family: Bahnschrift;
+}
+
+.start {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 20px;
+    padding: 30px;
+}
+
+.accordion {
+  background-color: #eee;
+  color: #444;
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: 15px;
+  transition: 0.4s;
+}
+
+.active, .accordion:hover {
+  background-color: rgba(204, 204, 204, 0); 
+}
+
+.panel {
+  padding: 0 18px;
+  display: none;
+  background-color: white;
+  overflow: hidden;
+}
+
+</style>
+<body data-spy="scroll" data-target="#navbarNav" data-offset="50">
+
+        <!-- MENU BAR -->
+        <nav class="navbar navbar-expand-lg fixed-top">
+            <!-- <div class="container"> -->
+
+                <a class="navbar-brand" href="index.html">Arduino Botix Workshop</a>
+
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ml-lg-auto">
+                        <li class="nav-item">
+                        <a href="index.html#home" class="nav-link smoothScroll">Home</a>
+                    </li>
+
+                        <li class="nav-item">
+                            <a href="index.html#about" class="nav-link smoothScroll">About Us</a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a href="index.html#wwl" class="nav-link smoothScroll">What will you learn?</a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a href="index.html#schedule" class="nav-link smoothScroll">Workshop 2019</a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a href="index.html#take" class="nav-link smoothScroll">TAKE AWAY</a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a href="index.html#faq" class="nav-link smoothScroll">FAQs</a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a href="index.html#contact" class="nav-link smoothScroll">Contact</a>
+                        </li>
+                    </ul>
+
+                    <!-- <ul class="social-icon ml-lg-3">
+                    <li><a href="https://fb.com/tooplate" class="fa fa-facebook"></a></li>
+                    <li><a href="#" class="fa fa-twitter"></a></li>
+                    <li><a href="#" class="fa fa-instagram"></a></li>
+                </ul> -->
+                </div>
+
+            <!-- </div> -->
+        </nav>
+        <section class="hero d-flex flex-column justify-content-center align-items-center" id="theory">
+            <div class="bg-overlay"></div>
+            <div class="container"> 
+                <div class="row">
+                    <div class="col-lg-8 col-md-10 mx-auto col-12">
+                        <div class="hero-text text-center">
+                            <h2 class="text-white">THEORY OF ROBOTICS</h2>
+                            <p class="text-white">
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. A amet voluptatum optio ratione placeat recusandae 
+                                asperiores delectus, nulla quo! In enim vel quam odio error veritatis numquam fugiat blanditiis assumenda?
+                                <ul class="text-white">
+                                    <li>Point 1</li>
+                                    <li>Point 1</li>
+                                    <li>Point 1</li>
+                                    <li>Point 1</li>
+                                    <li>Point 1</li>
+                                    <li>Point 1</li>
+                                </ul>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="hero d-flex flex-column justify-content-center align-items-center" id="arduino">
+            <div class="bg-overlay"></div>
+            <div class="container"> 
+                <div class="row">
+                    <div class="col-lg-8 col-md-10 mx-auto col-12">
+                        <div class="hero-text text-center">
+                            <h2 class="text-white">ARDUINO CODING</h2>
+                            <p class="text-white">
+                                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nobis tenetur repellat optio sit ab id explicabo, 
+                                voluptas ea exercitationem sint earum error rem dolor reiciendis mollitia culpa. Tenetur, incidunt voluptates.
+                                <ul class="text-white">
+                                    <li>Point 1</li>
+                                    <li>Point 1</li>
+                                    <li>Point 1</li>
+                                    <li>Point 1</li>
+                                    <li>Point 1</li>
+                                    <li>Point 1</li>
+                                </ul>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="hero d-flex flex-column justify-content-center align-items-center" id="Tinker">
+            <div class="bg-overlay"></div>
+            <div class="container"> 
+                <div class="row">
+                    <div class="col-lg-8 col-md-10 mx-auto col-12">
+                        <div class="hero-text text-center">
+                            <h2 class="text-white">TINKERCAD SIMULATION</h2>
+                            <p class="text-white">
+                                Tinkercad is a free online collection of software tools that help people all over the world think, create and make. 
+                                Build your own arduino project on tinkercad simulator from scratch which will be guided seniors and industry persons 
+                                sourced by PICT robotics. Tinker cad is easy to use platform and more over user friendly. 
+                                It has many features including it's simulator and electronic gadgets which can be simulated using the tinkercad simulator.
+                            </p>
+                            <a href="#" class="btn custom-btn bg-color mt-3"
+                        data-toggle="modal" data-target="#membershipForm">Register Now</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <div class="section page s5" id="faq">
+            <div class="container">
+                <h1 class="ml1 aos-init aos-animate" data-aos="fade-up" data-aos-duration="800">
+                    <span class="text-wrapper">
+                        <span class="letters">FAQs</span>
+                        <span class="line line2"></span>
+                    </span>
+                </h1>
+                <br><br>
+                <div class="row">
+                    <div class="col-xl-4 mb-4 aos-init aos-animate" data-aos="zoom-in" data-aos-duration="1000">
+                        <div class="d-flex justify-content-center">
+                            <details close="">
+                                <summary>
+                                    What is the registration fee?
+                                    <br>
+                                </summary>
+                                <p>A: <br><br>
+                                </p>
+                            </details>
+                        </div>
+                    </div>
+                    <div class="col-xl-4 mb-4 aos-init aos-animate" data-aos="zoom-in" data-aos-duration="1000">
+                        <div class="d-flex justify-content-center">
+                            <details close="">
+                                <summary>
+                                    What if I don't have a any of experience in Robotics?
+                                </summary>
+                                <p>A: Doesn't matter, this workshop is specially designed for FEs.
+                                </p>
+                            </details>
+                        </div>
+                    </div>
+                    <div class="col-xl-4 mb-4 aos-init" data-aos="zoom-in" data-aos-duration="1000">
+                        <div class="d-flex justify-content-center">
+                            <details close="">
+                                <summary>
+                                    How many members should a team comprise of?
+                                </summary>
+                                <p>A: A team may comprise of _ members.
+                                </p>
+                            </details>
+                        </div>
+                    </div>
+                    <div class="col-xl-4 mb-4 aos-init aos-animate" data-aos="zoom-in" data-aos-duration="1000">
+                        <div class="d-flex justify-content-center">
+                            <details close="">
+                                <summary>
+                                    What will I get in the Robotic Kit?
+                                    <br>
+                                </summary>
+                                <p>A:No. This year due to the pandemic, we are conducting the workshop in a different way. <br><br>
+                                </p>
+                            </details>
+                        </div>
+                    </div>
+                </div>
+                <!-- <div class="row">
+
+    <div class="col-sm-4 aos-init" data-aos="zoom-in" data-aos-duration="1000">
+        <div class="d-flex justify-content-center">
+            <details close="">
+                <summary>
+                    veniam officia suscipit delectus corporis! Libero, voluptate amet. 
+                </summary>
+                <p>A: obcaecati laudantium nostrum debitis dignissimos eos doloribus.
+                </p>
+            </details>
+        </div>
+    </div>
+    <div class="col-sm-4 aos-init" data-aos="zoom-in" data-aos-duration="1000">
+        <div class="d-flex justify-content-center">
+            <details close="">
+                <summary>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                </summary>
+                <p>A: Sunt eos libero possimus corporis optio aliquam, quae maiores non dolorum corrupti. 
+                </p>
+            </details>
+        </div>
+    </div>
+    <div class="col-sm-4 aos-init" data-aos="zoom-in" data-aos-duration="1000">
+        <div class="d-flex justify-content-center">
+            <details close="">
+                <summary>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                </summary>
+                <p>A: Fuga libero placeat maiores cumque doloribus explicabo. 
+                </p>
+            </details>
+        </div>
+    </div>
+</div> -->
+
+            </div>
+
+        </div>
+         
+<br>
+<div class="container">
+<h2>Contact Us</h2>
+<br>
+<div class="media">
+ <img width="50px" height="50px" src="https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg" class="mr-3" alt="...">
+ <div class="media-body">
+   <h5 class="mt-0">Join our PICT ROBOTICS INTERACT GROUP </h5>
+   <b><a href="">CLICK HERE TO JOIN</a></b>
+ 
+ </div>
+</div>
+
+</div>
+    <footer class="site-footer">
+        <div class="container">
+            <div class="row">
+
+                <div class="ml-auto col-lg-4 col-md-5">
+                    <p class="copyright-text">Copyright &copy; 2020 PICT ROBOTICS.
+
+                        <br>Visit Us: <a href="https://pictrobotics.com/"><strong>Pict Robotics</strong> </a>
+                    </p>
+                </div>
+
+                <div class="d-flex justify-content-center mx-auto col-lg-5 col-md-7 col-12">
+                    <p class="mr-12">
+                        <a href="https://www.instagram.com/pictrobotics/"><i class="fa fa-instagram fa-2 socialicon"></i></a>
+                        <!-- <i class="fa fa-twitter socialicon"><a href=""></a></i> -->
+                        <a href="https://www.linkedin.com/company/pictrobotics/"><i class="fa fa-linkedin socialicon"></i></a>
+                        <a href="https://www.facebook.com/pictrobotics/"><i class="fa fa-facebook socialicon"></i></a>
+                        <!-- <a href="#">hello@company.co</a> -->
+                    </p>
+
+                    <!-- <p><i class="fa fa-phone mr-1"></i> 010-020-0840</p> -->
+                </div>
+
+            </div>
+        </div>
+    </footer>
+
+    </body>
+</html>
